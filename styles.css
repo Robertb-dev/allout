@@ -1,0 +1,142 @@
+
+/*INTRUÇÕES GERAIS*/
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+}
+
+:root{
+  --white-color: #ffffff;
+  --orange-marinemos-color: #BA6F4D;/*antigo marrom-color*/
+  --orange-dark-color: #8E412E;
+  --green-light-color: #A2A182;
+  --green-dark-color: #687259;
+  --bege-color: #FFEBDC;
+
+
+  font-size: 62.5%; /*1rem = 10px */
+}
+
+
+/*LEMBRE QUE EXISTE UM FONT-FACE
+@font-face{
+  font-family: 'comfortaa';
+  src: url(font/comfortaa/Comfortaa-Bold.ttf);
+  }*/
+
+  
+
+
+  /*CONFIGURAÇÕES DO CABEÇALHO*/
+
+
+  .cabecalho{
+    margin-top: 30px;
+    
+  }
+  .logoimagem{
+    
+    margin-left: 30px;
+    
+  }
+
+  /*Sessão navegação*/
+  .nav-link{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+
+
+  /*SESSÃO BANNER*/
+  /*tamanho original do banner: 1716x850, vamos dividir por 2 425x858*/
+  .banner{
+    margin-top: 30px;
+    height: 42.5rem;
+    width: 85.8rem;   
+    margin-bottom: 30px;
+  }
+
+
+  /*FAIXA DIVISÓRIA*/
+.faixadivisoria{
+  margin-top: 30px;
+  height: 30px;
+  width: auto;
+  background-color: rgba(243, 91, 243, 0.87);
+}
+
+
+/*sessão identidade*/
+.sessaoidentidade{
+  margin-top: 30px;
+  
+}
+.card-text{
+  font-size: 1.8rem;
+}
+
+
+
+/*SESSÃO BANDEIRA LGBT*/
+
+.sessaobandeira{
+  margin-top: 30px;
+  background-image: url("imagens/fundoroxo.png");
+}
+
+.bandeiralbgt{
+  /*Tamanho original da imagem 988x968px divido por 2 x48,4 */
+  width: 49.4rem;
+  height: 48.4rem;
+  /*Para telas menores, faça a bandeira desaparecer*/
+}
+
+.descricaobandeira{
+  font-weight: 900;
+  
+}
+.textobandeira{
+  margin-top: 50px;
+  margin-right: 3rem;
+  font-size: 1.8rem;
+}
+
+.botao{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 8px 24px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+
+/*SESSÃO ORIENTAÇÃO*/
+
+.sessaooreintacao{
+  margin-top: 30px;
+  
+}
+
+
+/*Sessão email*/
+
+.sessaoemail{
+  background-color: rgb(240, 128, 240);
+  margin-top: 30px;
+  height: 200px;
+
+  
+}
+
+.textoemail{
+  margin-top: 60px;
+  font-size: 1.8rem;
+}
