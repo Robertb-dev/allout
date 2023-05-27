@@ -24,17 +24,35 @@ body{
 }
 
 
-/*LEMBRE QUE EXISTE UM FONT-FACE
-@font-face{
-  font-family: 'comfortaa';
-  src: url(font/comfortaa/Comfortaa-Bold.ttf);
-  }*/
+/*LEMBRE QUE EXISTE UM FONT-FACE*/
+@font-face {
+  font-family: sunFlower;
+  src: url(tipografia/sunFlower/Sunflower.otf);
+}
 
-  
+@font-face {
+  font-family: milk;
+  src: url(tipografia/lemonMilk/LEMONMILK-Regular.otf);
+}
 
-
+a{
+  font-family: 'Ubuntu', sans-serif;
+}
+h1, h2, h2{
+  font-family: 'Ubuntu', sans-serif;
+}
+p{
+  font-family: 'Ubuntu', sans-serif;
+}
   /*CONFIGURAÇÕES DO CABEÇALHO*/
 
+  .logoinfo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    color: red;
+  }
+
+  
 
   .cabecalho{
     margin-top: 30px;
@@ -126,17 +144,82 @@ body{
 }
 
 
-/*Sessão email*/
-
-.sessaoemail{
-  background-color: rgb(240, 128, 240);
-  margin-top: 30px;
-  height: 200px;
-
-  
+/*sessão rodapé*/
+.rodape{
+  margin-top: 6rem;
+  background-image: url("imagens/rainbow.jpg");
+  height: 30rem;
+}
+.espacorodape{
+  margin-top: 6rem;
 }
 
-.textoemail{
-  margin-top: 60px;
+.linksrodape a{
+ text-decoration: none;
+ color: rgb(104, 102, 102);
+ font-size: 1.5rem;
+ margin-top: 5px;
+}
+
+.titulorodape{
+  margin-left:2rem;
+}
+ul{
+  list-style-type: none;
+}
+.uldorodape {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.lidorodape {
+  float: left;
+}
+
+.lidorodape a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.lidorodape a:hover {
+  background-color: #fafafa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sessão Inspiração*/
+.espacoinspiracao{
+  margin-bottom: 50px; 
+
+}
+
+.textoinspiracao{
+  margin-top: 50px; 
+  margin-bottom: 50px;
+}
+
+.paragrafoinspiracao{
   font-size: 1.8rem;
+  width: 69rem;
 }
+
+
+.cardinspiracao{
+  border-width: 5px;
+  border-color: red green blue yellow; 
+}
+
