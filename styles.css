@@ -24,7 +24,7 @@ body{
 }
 
 
-/*LEMBRE QUE EXISTE UM FONT-FACE*/
+/*LEMBRE QUE EXISTE UM FONT-FACE
 @font-face {
   font-family: sunFlower;
   src: url(tipografia/sunFlower/Sunflower.otf);
@@ -33,7 +33,7 @@ body{
 @font-face {
   font-family: milk;
   src: url(tipografia/lemonMilk/LEMONMILK-Regular.otf);
-}
+}*/
 
 a{
   font-family: 'Ubuntu', sans-serif;
@@ -42,6 +42,8 @@ h1, h2, h2{
   font-family: 'Ubuntu', sans-serif;
 }
 p{
+  text-indent: 4rem;
+  text-align: justify;
   font-family: 'Ubuntu', sans-serif;
 }
   /*CONFIGURAÇÕES DO CABEÇALHO*/
@@ -51,8 +53,6 @@ p{
     font-size: 3rem;
     color: red;
   }
-
-  
 
   .cabecalho{
     margin-top: 30px;
@@ -72,7 +72,7 @@ p{
   }
 
 
-  /*SESSÃO BANNER*/
+  /*SESSÃO BANNER index*/
   /*tamanho original do banner: 1716x850, vamos dividir por 2 425x858*/
   .banner{
     margin-top: 30px;
@@ -82,7 +82,7 @@ p{
   }
 
 
-  /*FAIXA DIVISÓRIA*/
+  /*FAIXA DIVISÓRIA index*/
 .faixadivisoria{
   margin-top: 30px;
   height: 30px;
@@ -91,7 +91,7 @@ p{
 }
 
 
-/*sessão identidade*/
+/*sessão identidade index*/
 .sessaoidentidade{
   margin-top: 30px;
   
@@ -99,50 +99,6 @@ p{
 .card-text{
   font-size: 1.8rem;
 }
-
-
-
-/*SESSÃO BANDEIRA LGBT*/
-
-.sessaobandeira{
-  margin-top: 30px;
-  background-image: url("imagens/fundoroxo.png");
-}
-
-.bandeiralbgt{
-  /*Tamanho original da imagem 988x968px divido por 2 x48,4 */
-  width: 49.4rem;
-  height: 48.4rem;
-  /*Para telas menores, faça a bandeira desaparecer*/
-}
-
-.descricaobandeira{
-  font-weight: 900;
-  
-}
-.textobandeira{
-  margin-top: 50px;
-  margin-right: 3rem;
-  font-size: 1.8rem;
-}
-
-.botao{
-  background-color: black;
-  color: white;
-  font-size: 15px;
-  padding: 8px 24px;
-  border-radius: 10px;
-  border: 2px solid black;
-}
-
-
-/*SESSÃO ORIENTAÇÃO*/
-
-.sessaooreintacao{
-  margin-top: 30px;
-  
-}
-
 
 /*sessão rodapé*/
 .rodape{
@@ -189,19 +145,37 @@ ul{
 .lidorodape a:hover {
   background-color: #fafafa;
 }
+/*FIM DO INDEX*/
 
 
 
+/*PÁGINA  SOBRE NOS*/
+
+.sessaobandeira{
+  margin-top: 30px;
+  background-image: url("imagens/fundoroxo.png");
+}
+
+.bandeiralbgt{
+  /*Tamanho original da imagem 988x968px divido por 2 x48,4 */
+  width: 49.4rem;
+  height: 48.4rem;
+  /*Para telas menores, faça a bandeira desaparecer*/
+}
+
+.descricaobandeira{
+  font-weight: 900;
+  
+}
+.textobandeira{
+  margin-top: 50px;
+  margin-right: 3rem;
+  font-size: 1.8rem;
+}
 
 
 
-
-
-
-
-
-
-/*Sessão Inspiração*/
+/*PÁGINA  INSPIRACAO*/
 .espacoinspiracao{
   margin-bottom: 50px; 
 
@@ -222,4 +196,43 @@ ul{
   border-width: 5px;
   border-color: red green blue yellow; 
 }
+
+
+
+/*PÁGINA SAÚDE*/
+
+.textosaude{
+  font-size: 1.8rem;
+  margin-top: 8rem;
+}
+
+#menusaude{
+  margin-top: 10rem;
+  margin-bottom: 15rem;
+}
+
+#menusaude h2{
+  font-size: 2.9rem;
+}
+
+#menusaude ul{
+  list-style-type: disc;
+  font-size: 1.9rem;
+}
+
+.saudetexto h2{
+  font-size: 2.1rem;
+}
+
+.saudetexto{
+  font-size: 1.7rem;
+  margin-bottom: 4rem;
+}
+
+
+#centrosacolhimento{
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}
+
 
