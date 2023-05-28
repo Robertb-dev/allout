@@ -24,28 +24,37 @@ body{
 }
 
 
-/*LEMBRE QUE EXISTE UM FONT-FACE
-@font-face {
-  font-family: sunFlower;
-  src: url(tipografia/sunFlower/Sunflower.otf);
-}
+/*LEMBRE QUE EXISTE UM FONT-FACE*/
 
-@font-face {
-  font-family: milk;
-  src: url(tipografia/lemonMilk/LEMONMILK-Regular.otf);
-}*/
 
 a{
   font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
 }
-h1, h2, h2{
+h1, h2, h3, h4{
   font-family: 'Ubuntu', sans-serif;
+  
+}
+h1{
+  font-size: 2.7rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+h3{
+  font-size: 2.3rem;
 }
 p{
+  font-size: 1.8rem;
   text-indent: 4rem;
   text-align: justify;
-  font-family: 'Ubuntu', sans-serif;
+  font-family:  'Ubuntu', sans-serif;
 }
+
+.nav-link{
+  font-size: 1.8rem;
+}
+
   /*CONFIGURAÇÕES DO CABEÇALHO*/
 
   .logoinfo{
@@ -66,7 +75,6 @@ p{
 
   /*Sessão navegação*/
   .nav-link{
-    font-size: 1.6rem;
     font-weight: bold;
     margin-right: 30px;
   }
@@ -97,7 +105,7 @@ p{
   
 }
 .card-text{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 /*sessão rodapé*/
@@ -170,7 +178,6 @@ ul{
 .textobandeira{
   margin-top: 50px;
   margin-right: 3rem;
-  font-size: 1.8rem;
 }
 
 
@@ -187,7 +194,6 @@ ul{
 }
 
 .paragrafoinspiracao{
-  font-size: 1.8rem;
   width: 69rem;
 }
 
@@ -199,20 +205,41 @@ ul{
 
 
 
-/*PÁGINA SAÚDE*/
+/*PÁGINA SERVIÇOS*/
 
-.textosaude{
-  font-size: 1.8rem;
-  margin-top: 8rem;
+.colorbotao1{
+  color: white;
+  background-color: orange;
+  font-size: 1.5rem;
+}
+
+.colorbotao2{
+  color: white;
+  background-color: rgb(46, 219, 46);
+  font-size: 1.5rem;
+}
+
+.colorbotao3{
+  color: white;
+  background-color: rgba(62, 210, 230, 0.87);
+  font-size: 1.5rem;
+}
+
+.servicoespaco{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.servicoespaco2{
+  margin-bottom: 32rem;
 }
 
 #menusaude{
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-bottom: 15rem;
 }
-
-#menusaude h2{
-  font-size: 2.9rem;
+.espacoservico{
+  margin-top: 8rem;
+  margin-bottom: 4rem;
 }
 
 #menusaude ul{
@@ -220,19 +247,42 @@ ul{
   font-size: 1.9rem;
 }
 
-.saudetexto h2{
-  font-size: 2.1rem;
+.espacoh3{
+  margin-bottom: 2rem;
 }
 
-.saudetexto{
-  font-size: 1.7rem;
-  margin-bottom: 4rem;
+
+.faixadivisoriaservico1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 10px;
+  width: auto;
+  background-color: orange;
 }
 
+.faixadivisoriaservico2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 10px;
+  width: auto;
+  background-color: rgb(46, 219, 46);
+}
+
+.faixadivisoriaservico3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 10px;
+  width: auto;
+  background-color: rgba(62, 210, 230, 0.87);
+}
 
 #centrosacolhimento{
   margin-top: 15rem;
   margin-bottom: 5rem;
 }
+
+
+
+
 
 
