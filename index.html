@@ -29,7 +29,7 @@
   <body>
    
     <header class="cabecalho">
-      <nav class="navbar navbar-expand-md bg-light">
+      <nav class="navbar navbar-expand-xl bg-light">
         <div class="container-fluid">
           <div>
           <a class="navbar-brand logoimagem logoinfo" href="index.html"><img src="imagens/Vector.png"> ALLOUT Brasil</a><!--A LOGO FICA Aqui, deixe ele colorido-->
@@ -41,11 +41,11 @@
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link" href="index.html">HOME</a>
-              <a class="nav-link" href="sobrenos.html">SOBRE NÓS</a>
-              <a class="nav-link" href="conceitos.html">CONCEITOS</a>
-              <a class="nav-link" href="servicos.html">SERVIÇOS</a>
-              <a class="nav-link"  href="inspiracao.html">INSPIRAÇÕES</a>
+              <a class="nav-link orange" href="index.html">HOME</a>
+              <a class="nav-link yellow" href="sobrenos.html">SOBRE NÓS</a>
+              <a class="nav-link green" href="conceitos.html">CONCEITOS</a>
+              <a class="nav-link blue" href="servicos.html">SERVIÇOS</a>
+              <a class="nav-link purple"  href="inspiracao.html">INSPIRAÇÕES</a>
             </div>
           </div>
         </div>
@@ -55,12 +55,13 @@
 
     <section><!--banner lembre-se de fazer um banner para telas de celular-->
       <div class="container">
-        <div class="row">
-          <div class="col-1"></div>
-
+        <div class="row justify-content-center">
        <div class="col-10"> <img class="banner" src="imagens/banner.png"></div>
-      
-      <div class="col-1"></div>
+      </div>
+
+      <div class="text-center textobanner">
+        <h1>ENTENDA O MUNDO LGBTQIA+ SEM CRISES</h1>
+        <h2 class="text-center">Sabemos que são muitas letras, mas estamos aqui para dar um help.</h2>
       </div>
     </div>
 
@@ -70,32 +71,40 @@
 
     <!--DIVISÃO ROXA AQUI-->
 
-    <section class="sessaoidentidade"><!--SESSÃO IDENTIDADE DE GENERO COM 3 CARDS DESCRITIVOS-->
+    <section><!--SESSÃO IDENTIDADE DE GENERO COM 3 CARDS DESCRITIVOS-->
      
-      <div class="container text-center">
+      <div class="container ">
+        <div class="d-flex justify-content-center">
+      <div class="w-75 sessaoidentidade text-center">
         <h2>IDENTIDADE DE GÊNERO</h2>
+        <p>Identidade de gênero diz respeito à experiência interna e individual relacionada ao gênero com o qual a pessoa se identifica. A identidade de gênero não está necessariamente relacionada com características biológicas tipicamente atribuídas aos sexos masculino e feminino. Entenda mais sobre os diferentes tipos de gênero clicando <a class="fw-bold" href="conceitos.html">aqui</a></p>
+     </div>
+      </div>
+
         <div class="row">
-          <div class="col"> <!--CARD 1-->
+          <div class="col-md order-1 mb-5"> <!--CARD 1-->
             <div class="card" >
               <img src="imagens/pessoamacacao.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">um texto muito legal sobre gays</p>
+                <p class="card-text">Nem todo gay quer ser mulher, as vezes eles estão felizes assim</p>
               </div>
             </div>
           </div>
-          <div class="col"> <!--CARD 2-->
+
+          <div class="col-md order-2 mb-5"> <!--CARD 2-->
             <div class="card" >
               <img src="imagens/pessoadepreto.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Transsexuais de sucesso podem alguma coisa</p>
+                <p class="card-text">Transsexuais existem na forma como eles ou elas se enxergam, aposto que você também não é o mesmo desde de bebê</p>
               </div>
             </div>
           </div>
-          <div class="col"> <!--CARD 3-->
+
+          <div class="col-md order-3 mb-5"> <!--CARD 3-->
             <div class="card" >
               <img src="imagens/cabeloslindos.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Olha que bafo os cabelos dessa travesti, coisa mais linda</p>
+                <p class="card-text">Grandes travestis fizeram suas contribuições para a arte, entenda mais <a class="fw-bold" href="inspiracao.html">aqui</a>.</p>
               </div>
             </div>
           </div>
@@ -104,28 +113,35 @@
     </section>
 
 
- 
+
 
     <section><!--SESSÃO ORIENTAÇÃO SEXUAL, DOIS CARDS DESCRITIVOS-->
-      <div class="container text-center sessaooreintacao">
-        <h2>ORIENTAÇÃO SECSUAL</h2>
+      <div class="container text-center">
+      <div class="d-flex justify-content-center">
+      <div class="w-75 sessaoidentidade text-center">
+       <h2>ORIENTAÇÃO SEXUAL</h2>
+       <p>A orientação sexual é a atração ou ligação afetiva que se sente por outra pessoa.</p>
+       </div>
+      </div>
+
         <div class="row">
-          <div class="col-6">
-            <div class="card" >
+ 
+            <div class="col-md order-1 card mb-5" >
               <img src="imagens/pessoaleque.png" class="card-img-top" alt="pessoa segurando um leque">
               <div class="card-body">
-                <p class="card-text">Gays merecem viver em segurança, sem ódio e sem violência</p>
+                <p class="card-text">Assexuais não sentem atração sexual por nenhum gênero, e tudo bem, ninguem é obrigado a nada.</p>
               </div>
             </div>
-          </div>
-          <div class="col-6">
-            <div class="card" >
+
+
+ 
+            <div class="col-md order-2 card mb-5" >
               <img src="imagens/beijao.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Se você tem odio contra quem ama outros, então saia do armario e venha experimentar. Vale lembrar, não é não hein?</p>
+                <p class="card-text">Como pode alguem sentir ódio contra o amor? Abra a sua mente e entenda mais clicando <a class="fw-bold" href="conceitos.html">aqui</a></p>
               </div>
             </div>
-          </div>
+ 
 
         </div>
       </div>
@@ -139,7 +155,7 @@
       <div class="container rodape">
 
             <div class="row">
-              <div class="col-4 espacorodape  ">
+              <div class="col order-1 espacorodape  ">
                 <h2 class="titulorodape text-center">Redes Sociais</h2>
                 <div class="row">
                 <ul class="list-group list-group-horizontal uldorodape">
@@ -152,28 +168,18 @@
                 </ul>
               </div><!--Fim do segundo row-->
               </div>
-              <div  class="col-1">
-              </div>
 
-              <div class="col-3 espacorodape  ">
+              <div class="col order-2 espacorodape  ">
                 <h2 class="titulorodape">Company</h2>
                 <ul class="linksrodape">
                   <li><a href="#sobrenos.html">Sobre Nós</a></li>
                   <li><a href="#">Contate-nos</a></li>
                   <li><a href="#">Support</a></li>
-
+                    <li><a href="#">Termos e condições</a></li>
+                    <li><a href="#">Politicas</a></li>
                 </ul>
               </div>
               
-              <div class="col-3">
-                <div class="col-3 espacorodape  ">
-                  <h2 class="titulorodape">Legal</h2>
-                  <ul class="linksrodape">
-                    <li><a href="#">Termos e condições</a></li>
-                    <li><a href="#">Politicas</a></li>
-                  </ul>
-                </div>
-              </div>
             </div><!--Fim da row rodape-->
            </div><!--Fim do container rodape-->
       

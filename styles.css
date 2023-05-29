@@ -88,7 +88,9 @@ p{
     width: 85.8rem;   
     margin-bottom: 30px;
   }
-
+  .textobanner{
+    margin-top: 8rem;
+    margin-bottom: 8rem;}
 
   /*FAIXA DIVISÓRIA index*/
 .faixadivisoria{
@@ -101,8 +103,12 @@ p{
 
 /*sessão identidade index*/
 .sessaoidentidade{
-  margin-top: 30px;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
   
+}
+.card-title{
+  font-size: 2rem;
 }
 .card-text{
   font-size: 1.6rem;
@@ -120,7 +126,7 @@ p{
 
 .linksrodape a{
  text-decoration: none;
- color: rgb(104, 102, 102);
+ color: rgb(2, 2, 2);
  font-size: 1.5rem;
  margin-top: 5px;
 }
@@ -162,22 +168,27 @@ ul{
 .sessaobandeira{
   margin-top: 30px;
   background-image: url("imagens/fundoroxo.png");
+  height: auto;
+  padding-bottom: 8rem;
 }
 
 .bandeiralbgt{
-  /*Tamanho original da imagem 988x968px divido por 2 x48,4 */
-  width: 49.4rem;
-  height: 48.4rem;
-  /*Para telas menores, faça a bandeira desaparecer*/
+  /*Tamanho original da imagem 988x968px divido por 2 x48,4   */
+  margin-top: 5rem;
+ /* width: 49.4rem;
+  height: 48.4rem;*/
+  width: 54.8rem;
+  height: 53.7rem;
 }
 
 .descricaobandeira{
   font-weight: 900;
-  
+  background-image: url("imagens/fundoroxo.png");
 }
 .textobandeira{
   margin-top: 50px;
   margin-right: 3rem;
+  
 }
 
 
@@ -230,7 +241,7 @@ ul{
   margin-bottom: 10rem;
 }
 .servicoespaco2{
-  margin-bottom: 32rem;
+  margin-bottom: 72rem;
 }
 
 #menusaude{
@@ -283,6 +294,73 @@ ul{
 
 
 
+/*PÁGINA CONCEITOS*/
+.cardbandeira{
+  width: 30rem;
+  margin-bottom: 8rem;
+}
+
+.red{
+  color:red;
+}
+
+.orange{
+  color: orange;
+}
+
+.yellow{
+  color: rgb(223, 223, 2);
+}
+
+.green{
+  color: green;
+}
+
+.blue{
+  color: blue;
+}
+
+.purple{
+  color: purple;
+}
+
+.pink{
+  color: rgb(252, 137, 156);
+}
 
 
 
+
+@media only screen and (max-width: 1200px) {
+.banner{
+  display: none;
+} 
+
+}
+
+@media only screen and (min-width: 1199px) {
+  .textobanner{
+    display: none;
+  }
+
+
+  }
+
+
+  @media (max-width: 991.98px) {
+    .sessaobandeira{
+      margin-top: 30px;
+      padding-bottom: 8rem;
+    }
+    .bandeiralbgt{
+      background-image: url("imagens/fundoroxo.png");
+      margin-top: 5rem;
+      width: 52.8rem;
+      height: 51.7rem;
+    }
+    
+    .descricaobandeira{
+      font-weight: 900;
+      background-image: url("imagens/fundoroxo.png");
+    }
+   }
