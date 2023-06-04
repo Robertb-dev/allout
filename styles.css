@@ -8,22 +8,43 @@
 }
 
 body{
-  background-color: white;
+  background-color: red;
 }
 
 :root{
   --white-color: #ffffff;
-  --orange-marinemos-color: #BA6F4D;/*antigo marrom-color*/
-  --orange-dark-color: #8E412E;
-  --green-light-color: #A2A182;
-  --green-dark-color: #687259;
-  --bege-color: #FFEBDC;
-
+  --orange-color: orange;/*antigo marrom-color*/
+  --yellow-color: yellow;
+  --green-color: rgb(14, 202, 14);
+  --blue-light-color: rgb(0, 217, 255);
+  --blue-color: blue;
+  --purple-color: rgba(243, 91, 243, 0.87);
 
   font-size: 62.5%; /*1rem = 10px */
 }
 
-
+/*Backgrounds cores*/
+.backbranco{
+  background-color:var(--white-color);
+}
+.backlaranja{
+  background-color:var(--orange-color);
+}
+.backmarelo{
+  background-color:var(--yellow-color);
+}
+.backverde{
+  background-color:var(--green-color);
+}
+.backazullight{
+  background-color:var(--blue-light-color);
+}
+.backazul{
+  background-color:var(--blue-color);
+}
+.backpurple{
+  background-color:var(--purple-color);
+}
 /*LEMBRE QUE EXISTE UM FONT-FACE*/
 
 
@@ -55,6 +76,13 @@ p{
   font-size: 1.8rem;
 }
 
+.container{
+  border-radius: 15px;
+}
+
+.card-img-top{
+  border-radius: 15px;
+}
   /*CONFIGURAÇÕES DO CABEÇALHO*/
 
   .logoinfo{
@@ -92,19 +120,21 @@ p{
     margin-top: 8rem;
     margin-bottom: 8rem;}
 
+
   /*FAIXA DIVISÓRIA index*/
 .faixadivisoria{
   margin-top: 30px;
+  margin-bottom: 30px;
   height: 30px;
   width: auto;
-  background-color: rgba(243, 91, 243, 0.87);
+  background-color:var(--white-color);
 }
 
 
 /*sessão identidade index*/
 .sessaoidentidade{
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
   
 }
 .card-title{
@@ -113,7 +143,30 @@ p{
 .card-text{
   font-size: 1.6rem;
 }
+/*sessão form*/
+.form-label{
+  font-size: 2rem;
+  color:var(--white-color);
+}
+.form-control{
+  font-size: 1.6rem;
+}
+.espacoemail{
+  height: 4rem;
+}
+.h2branco{
+  color:var(--white-color);
+}
 
+.espacoemail2{
+  height: 8rem;
+}
+
+.btn{
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.6rem;
+}
 /*sessão rodapé*/
 .rodape{
   margin-top: 6rem;
@@ -183,7 +236,6 @@ ul{
 
 .descricaobandeira{
   font-weight: 900;
-  background-image: url("imagens/fundoroxo.png");
 }
 .textobandeira{
   margin-top: 50px;
@@ -196,7 +248,12 @@ ul{
 /*PÁGINA  INSPIRACAO*/
 .espacoinspiracao{
   margin-bottom: 50px; 
+}
 
+.espacoinspiracao2{
+  padding-bottom: 50px;
+  margin-top: 70px;
+  padding-top:30px; 
 }
 
 .textoinspiracao{
@@ -211,9 +268,12 @@ ul{
 
 .cardinspiracao{
   border-width: 5px;
-  border-color: red green blue yellow; 
+  border-color: orange green blue yellow; 
 }
 
+.anone{
+  text-decoration: none;
+}
 
 
 /*PÁGINA SERVIÇOS*/
@@ -298,47 +358,74 @@ ul{
 .cardbandeira{
   width: 30rem;
   margin-bottom: 8rem;
+  border-width: 5px;
 }
 
 .red{
   color:red;
 }
-
+.corborderred{
+  border-color: red;
+  border-radius: 15px;
+}
 .orange{
   color: orange;
+}
+.corborderorange{
+  border-color: orange;
+  border-radius: 15px;
 }
 
 .yellow{
   color: rgb(223, 223, 2);
 }
+.corborderyellow{
+  border-color: rgb(223, 223, 2);
+  border-radius: 15px;
+}
 
 .green{
   color: green;
+}
+.corbordergreen{
+  border-color: green;
+  border-radius: 15px;
 }
 
 .blue{
   color: blue;
 }
+.corborderblue{
+  border-color: blue;
+  border-radius: 15px;
+}
 
 .purple{
   color: purple;
+}
+.corborderpurple{
+  border-color: purple;
+  border-radius: 15px;
 }
 
 .pink{
   color: rgb(252, 137, 156);
 }
+.corborderpink{
+  border-color: rgb(252, 137, 156);
+  border-radius: 15px;
+}
 
 
 
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 992px) {
 .banner{
   display: none;
 } 
 
 }
 
-@media only screen and (min-width: 1199px) {
+@media only screen and (min-width: 992px) {
   .textobanner{
     display: none;
   }
