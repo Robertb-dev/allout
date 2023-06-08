@@ -71,9 +71,11 @@ p{
   text-align: justify;
   font-family:  'Ubuntu', sans-serif;
 }
-
+li{
+  font-family: 'Ubuntu', sans-serif;
+}
 .nav-link{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .container{
@@ -415,6 +417,16 @@ ul{
   border-color: rgb(252, 137, 156);
   border-radius: 15px;
 }
+
+.listapais{
+  font-size: 1.6rem;
+}
+
+.listapais, ul, li{
+  list-style:disc;
+}
+
+
 
 
 
